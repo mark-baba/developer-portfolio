@@ -1,16 +1,16 @@
 import emoji from "react-easy-emoji";
 
 export const greetings = {
-	name: "Hanzla Tauqeer",
-	title: "Hi all, I'm Hanzla",
+	name: "Aniket Sarkar",
+	title: "Hi all, I'm Aniket",
 	description:
-		"I'm passionate Full Stack web developer having an experience of web applications with Python, Django, React.js, Next.js and Blockchain development on Ethereum, Solidity, Web3.js, Moralis, and Brownie Framework.",
+		"I'm passionate Full Stack web developer having an experience of web applications with Python, Django, Flask, Fastapi, React.js, Next.js and AWS. ",
 	resumeLink:
 		"https://drive.google.com/file/d/1Jj4QvvMMhRZQrxngrvlhmuTLhgcisaAp/view?usp=sharing",
 };
 
 export const openSource = {
-	githubUserName: "1hanzla100",
+	githubUserName: "marktennyson",
 };
 
 export const contact = {};
@@ -19,26 +19,29 @@ export const socialLinks = {
 	facebook: "https://www.facebook.com/1hanzla100",
 	instagram: "https://www.instagram.com/1hanzla100",
 	twitter: "https://twitter.com/1hanzla100",
-	github: "https://github.com/1hanzla100",
-	linkedin: "https://www.linkedin.com/in/1hanzla100/",
+	github: "https://github.com/marktennyson",
+	linkedin: "https://www.linkedin.com/in/aniket2929/",
 };
 
 export const skillsSection = {
 	title: "What I do",
 	subTitle:
-		"CRAZY FULL STACK DEVELOPER WHO WANTS TO EXPLORE EVERY TECH STACK",
+		"CRAZY ENTHUASIATIC FULL STACK DEVELOPER",
 	data: [
 		{
 			title: "Full Stack Development",
 			lottieAnimationFile: "/lottie/skills/fullstack.json", // Path of Lottie Animation JSON File
 			skills: [
 				emoji(
+					"⚡ Building RESTful APIs in Django, Django REST Framework, Flask, Fastapi"
+				),
+				emoji(
+					"⚡ Full cloud architecture using AWS."
+				),
+				emoji(
 					"⚡ Building responsive Single-Page-Apps (SPA) & PWA in React.js"
 				),
 				emoji("⚡ Building responsive static websites using Next.js"),
-				emoji(
-					"⚡ Building RESTful APIs in Django & Django REST Framework"
-				),
 			],
 			softwareSkills: [
 				{
@@ -54,12 +57,8 @@ export const skillsSection = {
 					fontAwesomeClassname: "logos:javascript",
 				},
 				{
-					skillName: "Reactjs",
-					fontAwesomeClassname: "vscode-icons:file-type-reactjs",
-				},
-				{
-					skillName: "Nextjs",
-					fontAwesomeClassname: "vscode-icons:file-type-light-next",
+					skillName: "VS Code",
+					fontAwesomeClassname: "vscode-icons:file-type-vscode",
 				},
 				{
 					skillName: "Python",
@@ -69,10 +68,25 @@ export const skillsSection = {
 					skillName: "Django",
 					fontAwesomeClassname: "vscode-icons:file-type-django",
 				},
-
 				{
-					skillName: "Redux",
-					fontAwesomeClassname: "logos:redux",
+					skillName : "Flask",
+					fontAwesomeClassname : 'bxl:flask'
+				},
+				{
+					skillName: "Jquery",
+					fontAwesomeClassname: "logos:jquery",
+				},
+				{
+					skillName: "Reactjs",
+					fontAwesomeClassname: "vscode-icons:file-type-reactjs",
+				},
+				{
+					skillName: "Nextjs",
+					fontAwesomeClassname: "vscode-icons:file-type-light-next",
+				},
+				{
+					skillName : "Pip",
+					fontAwesomeClassname : 'vscode-icons:file-type-pip'
 				},
 				{
 					skillName: "NPM",
@@ -81,7 +95,7 @@ export const skillsSection = {
 				{
 					skillName: "Yarn",
 					fontAwesomeClassname: "logos:yarn",
-				},
+				}
 			],
 		},
 		{
@@ -101,10 +115,10 @@ export const skillsSection = {
 					skillName: "AWS",
 					fontAwesomeClassname: "logos:aws",
 				},
-				{
-					skillName: "Azure",
-					fontAwesomeClassname: "logos:microsoft-azure",
-				},
+				// {
+				// 	skillName: "Azure",
+				// 	fontAwesomeClassname: "logos:microsoft-azure",
+				// },
 				{
 					skillName: "Heroku",
 					fontAwesomeClassname: "logos:heroku-icon",
@@ -125,100 +139,114 @@ export const skillsSection = {
 					skillName: "Github Actions",
 					fontAwesomeClassname: "logos:github-actions",
 				},
-				{
-					skillName: "Cloudinary",
-					fontAwesomeClassname: "logos:cloudinary",
-				},
+				// {
+				// 	skillName: "Cloudinary",
+				// 	fontAwesomeClassname: "logos:cloudinary",
+				// },
 				{
 					skillName: "Nginx",
 					fontAwesomeClassname: "logos:nginx",
 				},
 				{
-					skillName: "Sentry",
-					fontAwesomeClassname: "logos:sentry-icon",
+					skillName: "Gunicorn",
+					fontAwesomeClassname: "logos:gunicorn",
 				},
+				// {
+				// 	skillName: "Sentry",
+				// 	fontAwesomeClassname: "logos:sentry-icon",
+				// },
 			],
 		},
-		{
-			title: "Blockchain",
-			lottieAnimationFile: "/lottie/skills/ethereum.json", // Path of Lottie Animation JSON File
-			skills: [
-				emoji(
-					"⚡ Experience in developing Smart Contract using Solidity & Ethereum"
-				),
-				emoji(
-					"⚡ Building Scripts for automated testing & deployment of Smart Contracts using Brownie & Infura"
-				),
-				emoji(
-					"⚡ Experience of using Openzeppelin Smart Contract Standards & Chainlink Oracles"
-				),
-				emoji(
-					"⚡ Developing NFT Smart Contracts using ERC-721 Token Standard"
-				),
-				emoji(
-					"⚡ Building Dapps with React.js & Solidity using Web3.js, Moralis & IPFS"
-				),
-			],
-			softwareSkills: [
-				{
-					skillName: "Ethereum",
-					fontAwesomeClassname: "logos:ethereum",
-				},
-				{
-					skillName: "Solidity",
-					fontAwesomeClassname: "logos:solidity",
-				},
-				{
-					skillName: "Web3js",
-					fontAwesomeClassname: "logos:web3js",
-				},
-				{
-					skillName: "Metamask",
-					fontAwesomeClassname: "logos:metamask-icon",
-				},
-				{
-					skillName: "Ganache",
-					fontAwesomeClassname: "logos:ganache-icon",
-				},
-			],
-		},
+		// {
+		// 	title: "Blockchain",
+		// 	lottieAnimationFile: "/lottie/skills/ethereum.json", // Path of Lottie Animation JSON File
+		// 	skills: [
+		// 		emoji(
+		// 			"⚡ Experience in developing Smart Contract using Solidity & Ethereum"
+		// 		),
+		// 		emoji(
+		// 			"⚡ Building Scripts for automated testing & deployment of Smart Contracts using Brownie & Infura"
+		// 		),
+		// 		emoji(
+		// 			"⚡ Experience of using Openzeppelin Smart Contract Standards & Chainlink Oracles"
+		// 		),
+		// 		emoji(
+		// 			"⚡ Developing NFT Smart Contracts using ERC-721 Token Standard"
+		// 		),
+		// 		emoji(
+		// 			"⚡ Building Dapps with React.js & Solidity using Web3.js, Moralis & IPFS"
+		// 		),
+		// 	],
+		// 	softwareSkills: [
+		// 		{
+		// 			skillName: "Ethereum",
+		// 			fontAwesomeClassname: "logos:ethereum",
+		// 		},
+		// 		{
+		// 			skillName: "Solidity",
+		// 			fontAwesomeClassname: "logos:solidity",
+		// 		},
+		// 		{
+		// 			skillName: "Web3js",
+		// 			fontAwesomeClassname: "logos:web3js",
+		// 		},
+		// 		{
+		// 			skillName: "Metamask",
+		// 			fontAwesomeClassname: "logos:metamask-icon",
+		// 		},
+		// 		{
+		// 			skillName: "Ganache",
+		// 			fontAwesomeClassname: "logos:ganache-icon",
+		// 		},
+		// 	],
+		// },
 	],
 };
 
 export const SkillBars = [
 	{
 		Stack: "Frontend/Design", //Insert stack or technology you have experience in
-		progressPercentage: "90", //Insert relative proficiency in percentage
+		progressPercentage: "70", //Insert relative proficiency in percentage
 	},
 	{
 		Stack: "Backend",
-		progressPercentage: "70",
+		progressPercentage: "90",
 	},
 	{
 		Stack: "Programming",
-		progressPercentage: "60",
+		progressPercentage: "80",
 	},
 ];
 
 export const educationInfo = [
 	{
-		schoolName: "Harvard University",
-		subHeader: "Master of Science in Computer Science",
-		duration: "September 2017 - April 2019",
-		desc: "Participated in the research of XXX and published 3 papers.",
-		descBullets: [
-			"Lorem ipsum dolor sit amet, consectetur adipdfgiscing elit",
-			"Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-		],
+		schoolName: "Mira High School",
+		subHeader: "Higher Secondary",
+		duration: "April 2014 - March 2016",
+		// desc: "",
+		// descBullets: [
+		// 	"Lorem ipsum dolor sit amet, consectetur adipdfgiscing elit",
+		// 	"Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+		// ],
+	},
+	{
+		schoolName: "Bengal Institute of Technology",
+		subHeader: "Bachelor of Technology",
+		duration: "August 2016 - June 2020",
+		// desc: "",
+		// descBullets: [
+		// 	"Lorem ipsum dolor sit amet, consectetur adipdfgiscing elit",
+		// 	"Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+		// ],
 	},
 ];
 
 export const experience = [
 	{
-		role: "API Engineer",
-		company: "Duseca Software",
+		role: "Software Engineer",
+		company: "Cloodon Learning Private Limited",
 		companylogo: "/img/icons/common/dusecaSoftware.jpg",
-		date: "Jan 2022 – Mar 2022",
+		date: "MArch 2021 – Present",
 		desc: "I worked as API Engineer on a Kale App. Kale is a community platform for the creation of social reviews based on verified transactions. I built Fully Optimized and High Performance RESTful APIs using Django, DjangoRESTFramework, PostgresSQL, JWT Authentication, AWS, Integrated Plaid APIs for Fetching Bank Transactions, Integrated Sentry for monitoring Django Server and deployed the API on Heroku Server.",
 		// descBullets: [
 		// 	"Lorem ipsum dolor sit amet, consdfgectetur adipiscing elit",
@@ -226,8 +254,8 @@ export const experience = [
 		// ],
 	},
 	{
-		role: "Full Stack Developer",
-		company: "Bleed-AI",
+		role: "Python Developer",
+		company: "Triunits Infotech Private Limited",
 		companylogo: "/img/icons/common/bleedAI.jpg",
 		date: "Sept 2021 - Oct 2021",
 		desc: "Worked as django web developer to create a website in which I integrated computer vision AI model (built by the team of BleedAI) to process YouTube URLs and show Real Time processing on Website using Django Channels WebSockets , threading for running multiple instances of AI Model, jQuery for UI rendering and deployed it on Heroku server.",
