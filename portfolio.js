@@ -6,7 +6,7 @@ export const greetings = {
 	description:
 		"I'm passionate Full Stack web developer having an experience of web applications with Python, Django, Flask, Fastapi, React.js, Next.js and AWS. ",
 	resumeLink:
-		"https://drive.google.com/file/d/1Jj4QvvMMhRZQrxngrvlhmuTLhgcisaAp/view?usp=sharing",
+		"https://drive.google.com/file/d/1Qn2fHqwCP4jihmjRNnG8slaksWwwPr5z/view?usp=drivesdk",
 };
 
 export const openSource = {
@@ -16,11 +16,11 @@ export const openSource = {
 export const contact = {};
 
 export const socialLinks = {
-	facebook: "https://www.facebook.com/1hanzla100",
-	instagram: "https://www.instagram.com/1hanzla100",
-	twitter: "https://twitter.com/1hanzla100",
+	facebook: "https://www.facebook.com/aniket.sarkar.3538039",
+	instagram: "https://www.instagram.com/blackhat_unofficial",
+	twitter: "https://twitter.com/aniket2929",
 	github: "https://github.com/marktennyson",
-	linkedin: "https://www.linkedin.com/in/aniket2929/",
+	linkedin: "https://www.linkedin.com/in/marktennyson29/",
 };
 
 export const skillsSection = {
@@ -37,6 +37,9 @@ export const skillsSection = {
 				),
 				emoji(
 					"⚡ Full cloud architecture using AWS."
+				),
+				emoji(
+					"⚡ Building logical and fast frontend using Jquery."
 				),
 				emoji(
 					"⚡ Building responsive Single-Page-Apps (SPA) & PWA in React.js"
@@ -245,9 +248,9 @@ export const experience = [
 	{
 		role: "Software Engineer",
 		company: "Cloodon Learning Private Limited",
-		companylogo: "/img/icons/common/dusecaSoftware.jpg",
-		date: "MArch 2021 – Present",
-		desc: "I worked as API Engineer on a Kale App. Kale is a community platform for the creation of social reviews based on verified transactions. I built Fully Optimized and High Performance RESTful APIs using Django, DjangoRESTFramework, PostgresSQL, JWT Authentication, AWS, Integrated Plaid APIs for Fetching Bank Transactions, Integrated Sentry for monitoring Django Server and deployed the API on Heroku Server.",
+		companylogo: "/img/icons/common/seeklms-cloodon.jpg",
+		date: "March 2021 – Present",
+		desc: "Cloodon is a project based company that provides SEEKLMS, a learning management system. I am working with the cutting edge technologies like Python Django to build the backend and JQuery for the frontend logics",
 		// descBullets: [
 		// 	"Lorem ipsum dolor sit amet, consdfgectetur adipiscing elit",
 		// 	"Lorem ipsum dolor sit amet, consectetur adipiscing elit",
@@ -256,58 +259,59 @@ export const experience = [
 	{
 		role: "Python Developer",
 		company: "Triunits Infotech Private Limited",
-		companylogo: "/img/icons/common/bleedAI.jpg",
-		date: "Sept 2021 - Oct 2021",
-		desc: "Worked as django web developer to create a website in which I integrated computer vision AI model (built by the team of BleedAI) to process YouTube URLs and show Real Time processing on Website using Django Channels WebSockets , threading for running multiple instances of AI Model, jQuery for UI rendering and deployed it on Heroku server.",
-	},
-	{
-		role: "Backend Developer",
-		company: "Wapidu",
-		companylogo: "/img/icons/common/wapidu.jpg",
-		date: "Sept 2021",
-		desc: "Worked as a Django Developer to integrate Stripe payment gateway in wapidu.com and Created REST APIs using Django REST Framework to integrate Django Stripe backend to Vue.js Frontend and Deployed it on Azure based Docker container registry.",
+		companylogo: "/img/icons/common/triunits.jpg",
+		date: "July 2020 - December 2020",
+		desc: "This is my first company where I learned about the different fundamentals of web development. I was fortunate enough to got a chance to work with AWS to build the cloud infrastructure with the Devops team.",
 	},
 ];
 
 export const projects = [
 	{
-		name: "AtlasMart",
-		desc: "With Atlas Mart, it’s easy to find the products with the best price and ship them straight to your door.",
-		link: "https://atlasmart.netlify.app/",
+		name: "Acqude.com (Ecommerce)",
+		desc: "Ecommerce platform for shoes and garments.",
+		link: "https://acqude.com",
 	},
 	{
-		name: "Technota (Forum)",
-		desc: "Get hands-on experience in technical skills with Technota",
-		link: "https://technota.netlify.app/",
+		name: "Navycut",
+		desc: "The Full-stack web framework to meet the developer's expectation.",
+		github: "https://github.com/FlaskAio/navycut",
+		link: "https://flaskaio.aniketsarkar.info/navycut/"
 	},
 	{
-		name: "Shopaza (Ecommerce)",
-		desc: "Now your reach to all your favorite entertainment and luxury items is just one touch apart",
-		link: "https://shopaza.herokuapp.com/",
+		name: "Flask-Mailing",
+		desc: "Flask mail system for sending mails(individual, bulk) ,attachments(individual, bulk) fully asynchronously.",
+		github: "https://github.com/marktennyson/flask-mailing",
+		link: "https://gh.aniketsarkar.info/flask-mailing/"
 	},
 	{
-		name: "MMFmelody (Blog)",
-		desc: "Here you will find amazing tips about health, beauty, and modern-day life.",
-		// github: "https://github.com/1hanzla100",
-		link: "https://mmfmelody.herokuapp.com/",
+		name: "Flask-Express",
+		desc: "Provide the interactive service like expressJs to the flask app.",
+		github: "https://github.com/marktennyson/flask-express",
+		link: "https://gh.aniketsarkar.info/flask-express/"
 	},
 	{
-		name: "Developer-Portfolio",
-		desc: "Software Developer Portfolio Template built with react.js and next.js bootstrap that helps you showcase your work and skills as a software developer.",
-		github: "https://github.com/1hanzla100/developer-portfolio",
-		link: "https://developer-portfolio-1hanzla100.vercel.app/",
+		name: "Fastapi-MailMan",
+		desc: "Porting Django's email implementation to your FastAPI applications.",
+		github: "https://github.com/marktennyson/fastapi-mailman",
+		link: "https://gh.aniketsarkar.info/fastapi-mailman/",
+	},
+	{
+		name: "Fastapi-Tortoise",
+		desc: "Adds asynchronous Tortoise ORM(Like Django-ORM) support for flask app.",
+		github: "https://github.com/marktennyson/Flask-Tortoise",
+		link: "https://gh.aniketsarkar.info/Flask-Tortoise/",
 	},
 ];
 
-export const feedbacks = [
-	{
-		name: "John Smith",
-		feedback:
-			"Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nisi, vel illo. Eum magnam beatae ratione eos natus accusamus unde pariatur fugiat at facilis, modi molestiae? Labore odio sit eligendi. Tenetur.",
-	},
-	{
-		name: "John Smith",
-		feedback:
-			"Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nisi, vel illo. Eum magnam beatae ratione eos natus accusamus unde pariatur fugiat at facilis, modi molestiae? Labore odio sit eligendi. Tenetur.",
-	},
-];
+// export const feedbacks = [
+// 	{
+// 		name: "John Smith",
+// 		feedback:
+// 			"Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nisi, vel illo. Eum magnam beatae ratione eos natus accusamus unde pariatur fugiat at facilis, modi molestiae? Labore odio sit eligendi. Tenetur.",
+// 	},
+// 	{
+// 		name: "John Smith",
+// 		feedback:
+// 			"Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nisi, vel illo. Eum magnam beatae ratione eos natus accusamus unde pariatur fugiat at facilis, modi molestiae? Labore odio sit eligendi. Tenetur.",
+// 	},
+// ];
